@@ -1,6 +1,4 @@
 #include<stdio.h>
-#include<iostream>
-using namespace std;
 
 float fp32_to_bf16(float x)                 
 {
@@ -36,9 +34,9 @@ int main(){
         y[i] = fp32_to_bf16(y[i]);
     }
     for(int i=0; i<3; i++){
-        cout << x[i] << endl;
+        printf("%f\n", x[i]);
     }
     for(int i=0; i<3; i++){
-        cout << y[i] << endl;
+        printf("%f\n", y[i]);
     }
 }
