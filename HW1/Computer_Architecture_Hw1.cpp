@@ -24,7 +24,6 @@ float fp32_to_bf16(float x)
 
     *p &= 0xFFFF0000;
 
-    cout << y << endl;
     return y;
 }
 
@@ -37,6 +36,9 @@ int main(){
         y[i] = fp32_to_bf16(y[i]);
     }
     for(int i=0; i<3; i++){
-        cout << x[i]*y[i] << endl;
+        cout << x[i] << endl;
+    }
+    for(int i=0; i<3; i++){
+        cout << y[i] << endl;
     }
 }
