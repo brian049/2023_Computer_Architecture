@@ -13,9 +13,14 @@ Choose a problem in [Quiz1](https://hackmd.io/@sysprog/arch2023-quiz1), and tran
  ---
  
 ## HW2
-### Iroduction
+### Inroduction
 Choose a problem from homework1, and determine the rcycles about the RISC-V code by using [RV32emu](https://github.com/sysprog21/rv32emu).
 ### Hackmd record
 [Assignment2: RISC-V Toolchain](https://hackmd.io/@brianPA/r1C-9UIbT)
 
 ---
+## HW3
+### Introduction
+Finishing the codes to assemble a single cycle processor using scala and chisel.
+### Hackmd record
+[Assignment3: single-cycle RISC-V CPU](https://hackmd.io/@brianPA/S1mCIJbEp)
